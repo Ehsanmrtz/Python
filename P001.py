@@ -11,6 +11,6 @@ for i in range (4):
         print ("Odd minute")
     else:
         print ("Not an Odd minute")
-    wait_time = random.randint (1, 60)
+    wait_time = random.randint (1, 59)
     print(wait_time)
     time.sleep(wait_time)
